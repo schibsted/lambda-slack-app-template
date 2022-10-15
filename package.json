@@ -1,0 +1,24 @@
+{
+  "name": "lambda-slack-app-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "AWS_LAMBDA_NAME=YOUR_LAMBDA_NAME ./deploy.sh",
+    "test": "mocha --require mocha-suppress-logs"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Your Name <your.name@domain.tld>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2"
+  },
+  "devDependencies": {
+    "mocha-suppress-logs": "^0.3.1",
+    "mocha": "^8.1.1",
+    "nock": "^13.2.9"
+  }
+}
