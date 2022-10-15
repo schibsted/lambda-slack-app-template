@@ -37,7 +37,7 @@ exports.handler = async (event, context) => {
     if (json.event.type == "message") {
       await slack.chat.postMessage({
         channel: json.event.channel_id,
-        text: "I noticed you posted an audio or video file, so I'm making subtitles for you!"
+        text: "Hey, I heard that!"
       });
 
       let response = {
