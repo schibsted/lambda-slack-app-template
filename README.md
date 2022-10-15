@@ -1,5 +1,8 @@
 # Lamba Slack App template
 
+[![Build Status](https://travis-ci.com/schibsted/lambda-slack-app-template.svg?branch=main)](https://travis-ci.com/schibsted/lambda-slack-app-template)
+![License](https://img.shields.io/github/license/schibsted/lambda-slack-app-template)
+
 Everything you need to get started on making a Slack App running on AWS Lambda.
 
 ## Dependencies
